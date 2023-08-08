@@ -45,7 +45,7 @@ favicon: ../../../../images/favicon.png
 # Avatar (頭像)
 avatar:
   img: https://pic.imgdb.cn/item/64d25ab21ddac507cccd235c.jpg
-  effect: true
+  effect: false
 
 # Disable all banner image
 disable_top_img: false
