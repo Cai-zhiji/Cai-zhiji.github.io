@@ -40,11 +40,11 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: ../../../../images/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: ./images/avatar.jpg
+  img: ../../../../images/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -91,7 +91,7 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
+  flink: ../../../../images/friend_404.gif
   post_page: /img/404.jpg
 
 # A simple 404 page
