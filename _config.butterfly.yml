@@ -44,11 +44,11 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /images/avatar.jpg
+  img: ./images/avatar.jpg
   effect: false
 
 # Disable all banner image
-disable_top_img: true
+disable_top_img: false
 
 # The banner image of home page
 index_img:
