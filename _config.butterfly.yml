@@ -26,8 +26,7 @@ menu:
 來源: Butterfly
 著作權歸作者所有。商業轉載請聯絡作者獲得授權，非商業轉載請註明出處。
 
-# Code Blocks (代碼相關)
-# --------------------------------------
+
 
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
