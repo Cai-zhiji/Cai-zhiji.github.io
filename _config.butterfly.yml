@@ -9,31 +9,25 @@ nav:
 
 # Menu 目錄
 menu:
-  首頁: / || fas fa-home
-  時間軸: /archives/ || fas fa-archive
-  標籤: /tags/ || fas fa-tags
-  分類: /categories/ || fas fa-folder-open
-  清單||fa fa-heartbeat:
-    音樂: /music/ || fas fa-music
-    照片: /Gallery/ || fas fa-images
-    電影: /movies/ || fas fa-video
-  友鏈: /link/ || fas fa-link
-  關於: /about/ || fas fa-heart
+  # Home: / || fas fa-home
+  # Archives: /archives/ || fas fa-archive
+  # Tags: /tags/ || fas fa-tags
+  # Categories: /categories/ || fas fa-folder-open
+  # List||fas fa-list:
+  #   Music: /music/ || fas fa-music
+  #   Movie: /movies/ || fas fa-video
+  # Link: /link/ || fas fa-link
+  # About: /about/ || fas fa-heart
 
-
-作者: Jerry
-連結: https://butterfly.js.org/posts/4aa8abbe/#%E8%8F%9C%E5%96%AE-%E7%9B%AE%E9%8C%84
-來源: Butterfly
-著作權歸作者所有。商業轉載請聯絡作者獲得授權，非商業轉載請註明出處。
-
-
+# Code Blocks (代碼相關)
+# --------------------------------------
 
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: false # unit: px
-code_word_wrap: true
+code_word_wrap: false
 
 # Social Settings (社交圖標設置)
 # formal:
@@ -270,6 +264,10 @@ aside:
     post_count: true
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
+  card_post_series:
+    enable: true
+    orderBy: "date" # Order by title or date
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -386,12 +384,6 @@ docsearch:
 
 # Share System (分享)
 # --------------------------------------
-
-# AddThis
-# https://www.addthis.com/
-addThis:
-  enable: false
-  pubid:
 
 # Share.js
 # https://github.com/overtrue/share.js
@@ -657,7 +649,7 @@ mask:
   footer: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
-rightside-bottom:
+rightside_bottom:
 
 # Enter transitions (開啓網頁進入效果)
 enter_transitions: true
@@ -801,6 +793,13 @@ fancybox: true
 
 # Tag Plugins settings (標籤外掛)
 # --------------------------------------
+
+# series (系列文章)
+series:
+  enable: true
+  orderBy: "title" # Order by title or date
+  order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
+  number: true
 
 # abcjs (樂譜渲染)
 # See https://github.com/paulrosen/abcjs
@@ -978,8 +977,7 @@ CDN:
     # click_heart:
     # ClickShowText:
     # fontawesome:
-    # flickr_justified_gallery_js:
-    # flickr_justified_gallery_css:
+    # egjs_infinitegrid:
     # aplayer_css:
     # aplayer_js:
     # meting_js:
